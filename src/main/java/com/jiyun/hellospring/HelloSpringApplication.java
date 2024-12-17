@@ -1,4 +1,4 @@
-package com.jiyun.hello_spring;
+package com.jiyun.hellospring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

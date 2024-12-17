@@ -1,4 +1,4 @@
-package com.jiyun.hello_spring;
+package com.jiyun.hellospring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
