@@ -2,13 +2,12 @@ package com.jiyun.hellospring.service;
 
 import com.jiyun.hellospring.domain.Member;
 import com.jiyun.hellospring.repository.MemberRepository;
-import com.jiyun.hellospring.repository.MemoryMemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import jakarta.transaction.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;

@@ -1,9 +1,7 @@
 package com.jiyun.hellospring.service;
 
 import com.jiyun.hellospring.domain.Member;
-import com.jiyun.hellospring.repository.MemberRepository;
 import com.jiyun.hellospring.repository.MemoryMemberRepository;
-import com.sun.source.tree.MemberReferenceTree;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
